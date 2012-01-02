@@ -18,8 +18,8 @@
   along with Grbl.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef stepper_h
-#define stepper_h 
+#ifndef _STEPPER_H_
+#define _STEPPER_H_
 
 #include "planner.h"
 

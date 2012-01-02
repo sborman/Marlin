@@ -1,5 +1,5 @@
-#ifndef SPEED_LOOKUPTABLE_H
-#define SPEED_LOOKUPTABLE_H
+#ifndef _SPEED_LOOKUPTABLE_H_
+#define _SPEED_LOOKUPTABLE_H_
 
 #include "Marlin.h"
 

@@ -1,5 +1,5 @@
-#ifndef PINS_H
-#define PINS_H
+#ifndef _PINS_H_
+#define _PINS_H_
 
 /****************************************************************************************
 * Arduino pin assignment

@@ -1,6 +1,8 @@
-#ifndef __ULTRALCDH
-#define __ULTRALCDH
+#ifndef _ULTRALCD_H_
+#define _ULTRALCD_H_
+
 #include "Marlin.h"
+
 #ifdef ULTRA_LCD
   #include <LiquidCrystal.h>
   void lcd_status();

@@ -3,8 +3,8 @@
   why double up on these macros? see http://gcc.gnu.org/onlinedocs/cpp/Stringification.html
 */
 
-#ifndef	_ARDUINO_H
-#define	_ARDUINO_H
+#ifndef	_ARDUINO_H_
+#define	_ARDUINO_H_
 
 #include <avr/io.h>
 

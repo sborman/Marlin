@@ -823,7 +823,7 @@ FORCE_INLINE void process_commands()
         while((residencyStart == -1) ||
               (residencyStart > -1 && (millis() - residencyStart) < TEMP_RESIDENCY_TIME*1000) ) {
       #else
-        while ( target_direction ? (isHeatingHotend(tmp_extruder)) : (isCoolingHotend(tmp_extruder)&&(CooldownNoWait==false)) ) {
+        while ( target_direction ? (isHeatingHotend(tmp_extruder)) : (isCoolingHotend(tmp_extruder)&&(COOL_DOWN_NO_WAIT==false)) ) {
       #endif //TEMP_RESIDENCY_TIME
           if( (millis() - codenum) > 1000 ) 
           { //Print Temp Reading and remaining time every 1 second while heating up/cooling down

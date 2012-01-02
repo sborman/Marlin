@@ -19,8 +19,8 @@
   Modified 28 September 2010 by Mark Sproul
 */
 
-#ifndef MarlinSerial_h
-#define MarlinSerial_h
+#ifndef _MARLINSERIAL_H_
+#define _MARLINSERIAL_H_
 #include "Marlin.h"
 
 

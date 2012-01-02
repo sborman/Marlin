@@ -1,8 +1,8 @@
 // Tonokip RepRap firmware rewrite based off of Hydra-mmm firmware.
 // Licence: GPL
 
-#ifndef __MARLINH
-#define __MARLINH
+#ifndef _MARLIN_H_
+#define _MARLIN_H_
 
 #define  HardwareSerial_h // trick to disable the standard HWserial
 
@@ -17,9 +17,8 @@
 #include <avr/delay.h>
 #include <avr/pgmspace.h>
 #include <avr/eeprom.h>
-#include  <avr/wdt.h>
-#include  <avr/interrupt.h>
-
+#include <avr/wdt.h>
+#include <avr/interrupt.h>
 
 #include "fastio.h"
 #include "Configuration.h"
